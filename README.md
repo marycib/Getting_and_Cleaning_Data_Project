@@ -1,33 +1,32 @@
----
-title: "HelloWorld"
-author: "yo"
-date: "11/7/2020"
-output: pdf_document
----
-```{r}
-## This is a markdown file
-```
+### README.md
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+# Getting and Cleaning Data Course Project
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Purpose of this Project
+
+
+
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis 
+Project Files
+
+
+
+
+A Script: **run_analysis.R**  that does the following.
+
+
+1.	Merges the training and the test sets to create one data set.
+2.	Extracts only the measurements on the mean and standard deviation for each measurement.
+3.	Uses descriptive activity names to name the activities in the data set
+4.	Appropriately labels the data set with descriptive variable names.
+5.	From the data set in step 4, creates a second, independent tidy data set with the    average of each variable for each activity and each subject.
+**CodeBook.md**   describes the variables, the data, and any transformations or work that you performed to clean
+**README.md** in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+

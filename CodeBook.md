@@ -3,7 +3,7 @@
 # Getting and Cleaning Data Course Project
 
 
-##Description
+## Description
 
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
@@ -19,7 +19,7 @@ Here are the data for the project:
 
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
-####The script run_analysis.R
+#### The script run_analysis.R
 
 `Plyr()`: Applying and Combining Data
 `download.file() and unzip()`: Function to download the zip file from website to my compute.
